@@ -1,0 +1,13 @@
+gluon:
+  zerolog:
+    json: true
+    debug: false
+  fiber:
+    enabled: true
+    listen: localhost:8080
+    disable-startup-message: true
+    
++dev:
+  gluon:
+    zerolog:
+      json: false
